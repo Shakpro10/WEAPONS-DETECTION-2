@@ -1,0 +1,15 @@
+cvzone==1.6.1
+matplotlib==3.11.1
+numpy==2.5.2
+onnx==1.21.0
+opencv_contrib_python==4.13.0.92
+opencv_python==4.13.0.92
+opencv_python_headless==4.13.0.92
+pandas==3.0.5
+pycuda==2026.1
+scikit_learn==1.9.0
+tensorrt==10.16.1.11
+tensorrt_cu13==10.15.1.29
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+ultralytics==8.4.47
