@@ -1,0 +1,100 @@
+{
+    "timestamp": "2026-05-25 15:51:07",
+    "model_type": "YOLO Detection",
+    "pt_model": "./runs/detect/train/weights/best.pt",
+    "trt_engine": "./runs/detect/train/weights/best.engine",
+    "test_split": "test",
+    "val_config": {
+        "imgsz": 640,
+        "batch": 1,
+        "rect": false,
+        "device": 0
+    },
+    "verdict": "\u2705 Drop \u2264 1% \u2014 FP16 engine is safe for production",
+    "overall": {
+        "pt_fp32": {
+            "mAP50": 0.9459,
+            "mAP50-95": 0.6801
+        },
+        "trt_fp16": {
+            "mAP50": 0.9459,
+            "mAP50-95": 0.6801
+        },
+        "drop": {
+            "mAP50": -0.0001,
+            "mAP50-95": 0.0
+        }
+    },
+    "per_class": {
+        "Handgun": {
+            "pt_fp32": {
+                "mAP50": 0.9134,
+                "mAP50-95": 0.6721
+            },
+            "trt_fp16": {
+                "mAP50": 0.9134,
+                "mAP50-95": 0.6712
+            },
+            "drop": {
+                "mAP50_drop": 0.0,
+                "mAP50-95_drop": 0.0009
+            }
+        },
+        "Heavy Weapon": {
+            "pt_fp32": {
+                "mAP50": 0.9792,
+                "mAP50-95": 0.7155
+            },
+            "trt_fp16": {
+                "mAP50": 0.9793,
+                "mAP50-95": 0.7157
+            },
+            "drop": {
+                "mAP50_drop": -0.0001,
+                "mAP50-95_drop": -0.0002
+            }
+        },
+        "Knife": {
+            "pt_fp32": {
+                "mAP50": 0.9476,
+                "mAP50-95": 0.6419
+            },
+            "trt_fp16": {
+                "mAP50": 0.9478,
+                "mAP50-95": 0.6421
+            },
+            "drop": {
+                "mAP50_drop": -0.0002,
+                "mAP50-95_drop": -0.0002
+            }
+        },
+        "Rifle": {
+            "pt_fp32": {
+                "mAP50": 0.9591,
+                "mAP50-95": 0.7432
+            },
+            "trt_fp16": {
+                "mAP50": 0.9591,
+                "mAP50-95": 0.7435
+            },
+            "drop": {
+                "mAP50_drop": 0.0,
+                "mAP50-95_drop": -0.0003
+            }
+        },
+        "Rocket_Grenade Launcher": {
+            "pt_fp32": {
+                "mAP50": 0.9299,
+                "mAP50-95": 0.6278
+            },
+            "trt_fp16": {
+                "mAP50": 0.9299,
+                "mAP50-95": 0.6279
+            },
+            "drop": {
+                "mAP50_drop": 0.0,
+                "mAP50-95_drop": -0.0001
+            }
+        }
+    }
+}

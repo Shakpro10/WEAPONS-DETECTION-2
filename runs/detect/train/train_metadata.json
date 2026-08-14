@@ -1,0 +1,10 @@
+{
+    "epoch": 258,
+    "precision": 0.9512,
+    "recall": 0.92445,
+    "f1_score": 0.9376342494601871,
+    "mAP50": 0.95235,
+    "mAP50-95": 0.8037,
+    "best_weights": "C:\\Users\\Shakiru\\ML\\Weapon_Detection\\v26\\runs\\detect\\train\\weights\\best.pt",
+    "last_weights": "C:\\Users\\Shakiru\\ML\\Weapon_Detection\\v26\\runs\\detect\\train\\weights\\last.pt"
+}

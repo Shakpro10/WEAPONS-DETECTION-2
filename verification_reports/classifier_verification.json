@@ -1,0 +1,39 @@
+{
+    "timestamp": "2026-08-14 18:03:25",
+    "pth_acc": 0.9805550939006149,
+    "trt_acc": 0.9810536812364966,
+    "drop": -0.0004985873358817061,
+    "verdict": "\u2705 Safe for production",
+    "per_class": {
+        "Handgun": {
+            "pth_fp32_accuracy": 0.9714,
+            "trt_fp16_accuracy": 0.9714,
+            "drop": 0.0
+        },
+        "Heavy Weapon": {
+            "pth_fp32_accuracy": 0.9851,
+            "trt_fp16_accuracy": 0.9851,
+            "drop": 0.0
+        },
+        "Knife": {
+            "pth_fp32_accuracy": 0.9832,
+            "trt_fp16_accuracy": 0.9839,
+            "drop": -0.0007
+        },
+        "Rifle": {
+            "pth_fp32_accuracy": 0.9808,
+            "trt_fp16_accuracy": 0.9813,
+            "drop": -0.0005
+        },
+        "Rocket_Grenade Launcher": {
+            "pth_fp32_accuracy": 0.9631,
+            "trt_fp16_accuracy": 0.9631,
+            "drop": 0.0
+        },
+        "non_weapon": {
+            "pth_fp32_accuracy": 0.9879,
+            "trt_fp16_accuracy": 0.9887,
+            "drop": -0.0008
+        }
+    }
+}
