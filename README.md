@@ -928,7 +928,7 @@ The repository should provide a `requirements.txt` containing the versions valid
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/Shakpro10/WEAPONS-DETECTION-2.git
 cd <repository-name>
 ```
 
