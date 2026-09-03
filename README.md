@@ -929,7 +929,7 @@ The repository should provide a `requirements.txt` containing the versions valid
 
 ```bash
 git clone https://github.com/Shakpro10/WEAPONS-DETECTION-2.git
-cd <repository-name>
+cd WEAPONS-DETECTION-2
 ```
 
 ### 2. Create a virtual environment
