@@ -40,7 +40,7 @@ The detector recognizes five weapon classes:
 |   1 | Heavy Weapon            |
 |   2 | Knife                   |
 |   3 | Rifle                   |
-|   4 | Rocket_Grenade Launcher |
+|   4 | Rocket Launcher         |
 
 The classifier uses the same five detector-aligned weapon indices and adds a sixth class:
 
@@ -50,7 +50,7 @@ The classifier uses the same five detector-aligned weapon indices and adds a six
 |   1 | Heavy Weapon            | Weapon                       |
 |   2 | Knife                   | Weapon                       |
 |   3 | Rifle                   | Weapon                       |
-|   4 | Rocket_Grenade Launcher | Weapon                       |
+|   4 | Rocket Launcher         | Weapon                       |
 |   5 | `non_weapon`            | Reject / false-positive gate |
 
 Keeping indices `0–4` identical between the detector and classifier is critical. The classifier explicitly overrides the default alphabetical `ImageFolder` class ordering so that `non_weapon` remains index `5`.
